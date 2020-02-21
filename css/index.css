@@ -145,6 +145,11 @@ h5 {
   font-family: "Russo One", sans-serif;
   color: #23293B;
 }
+@media (max-width:500px) {
+  h1 {
+    margin-left: 20%;
+  }
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -172,7 +177,7 @@ p {
   }
 }
 .btn {
-  width: 20px;
+  width: 2.5%;
   border-radius: 5px;
   text-align: center;
   display: flex;
@@ -192,11 +197,14 @@ p {
 }
 @media (max-width:500px) {
   .btn:hover {
-    margin: 5% 0;
+    margin: 2% 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    width: 98%;
   }
 }
 header {
@@ -209,9 +217,7 @@ header {
 }
 @media (max-width:500px) {
   header {
-    margin: 3% 0;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
   }
@@ -226,6 +232,14 @@ header {
   align-items: center;
   margin-right: 33%;
   margin-left: 33%;
+}
+@media (max-width:500px) {
+  .nav {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+  }
 }
 footer {
   color: #22283B;
@@ -256,6 +270,9 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  /*.sky {
+      width: 40%;
+    }*/
 }
 @media (max-width:500px) {
   .home .space-images {
@@ -308,6 +325,10 @@ footer {
 }
 .home .walk .walk-text {
   width: 50%;
+  /*.btn-img {
+        display: flex;
+        flex-direction: column-reverse;
+      }*/
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;

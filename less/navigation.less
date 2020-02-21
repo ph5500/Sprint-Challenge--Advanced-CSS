@@ -9,9 +9,8 @@ header {
   margin-left: 5%;
 
   @media @phone {
-    margin: 3% 0;
     display: flex;
-    flex-wrap: wrap;
+
     flex-direction: column;
     align-items: center;
   }
@@ -26,4 +25,11 @@ header {
   width: 90%;
   align-items: center;
   .nav_margin();
+
+  @media @phone {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    .nav_margin_dos();
+  }
 }
