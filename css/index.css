@@ -162,6 +162,15 @@ p {
   margin-left: 22%;
   margin-right: 3%;
 }
+@media (max-width:500px) {
+  .container {
+    margin: 30% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .btn {
   width: 20px;
   border-radius: 5px;
@@ -179,6 +188,16 @@ p {
 }
 .btn:hover {
   background-color: #20649b;
+  color: purple;
+}
+@media (max-width:500px) {
+  .btn:hover {
+    margin: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 header {
   display: flex;
@@ -187,6 +206,15 @@ header {
   width: 90%;
   font-size: 30px;
   margin-left: 5%;
+}
+@media (max-width:500px) {
+  header {
+    margin: 3% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .nav {
   display: flex;
@@ -209,6 +237,15 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width:500px) {
+  .home {
+    margin: 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -220,6 +257,15 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
+@media (max-width:500px) {
+  .home .space-images {
+    margin: 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
@@ -228,6 +274,15 @@ footer {
 }
 .home .visit-planets {
   padding: 15px;
+}
+@media (max-width:500px) {
+  .home .visit-planets {
+    margin: 1% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .home .visit-planets h3 {
   margin-top: 11px;
@@ -242,6 +297,15 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width:500px) {
+  .home .walk {
+    margin: 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
@@ -254,6 +318,11 @@ footer {
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width:500px) {
+  .home .walk .walk-img {
+    margin-top: 5%;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
