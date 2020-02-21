@@ -1,1 +1,24 @@
 // Mixins Here
+
+.nav_margin() {
+  margin-right: 33%;
+  margin-left: 33%;
+}
+
+//parametric mixin below
+
+.custom-btn(@btn-color:black, @width:15%, @font-color:white, @height:12%) {
+  display: block;
+  background-color: @btn-color;
+  cursor: pointer;
+  width: @width;
+  border-radius: 5px;
+  color: @font-color;
+  text-align: center;
+  align-items: center;
+}
+
+@btn-color: black;
+@width: 15%;
+@font-color: white;
+@height: 12%;

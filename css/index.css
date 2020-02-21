@@ -134,7 +134,7 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #5E6164;
 }
 h1,
@@ -142,7 +142,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   color: #23293B;
 }
 h2 {
@@ -160,6 +160,24 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.btn {
+  width: 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  display: block;
+  background-color: black;
+  cursor: pointer;
+  width: 15%;
+  border-radius: 10px;
+  color: white;
+  height: 12%;
+  line-height: 20px;
+}
+.btn:hover {
+  background-color: #20649b;
+}
 header {
   display: flex;
   justify-content: space-around;
@@ -175,8 +193,8 @@ header {
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
-  margin-left: 33%;
   margin-right: 33%;
+  margin-left: 33%;
 }
 footer {
   color: #22283B;
