@@ -157,8 +157,10 @@ p {
 }
 .container {
   max-width: 800px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
+  margin-left: 22%;
+  margin-right: 3%;
 }
 .btn {
   width: 20px;
@@ -182,8 +184,9 @@ header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   font-size: 30px;
+  margin-left: 5%;
 }
 .nav {
   display: flex;
@@ -191,7 +194,7 @@ header {
   justify-content: space-between;
   font-size: 14px;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   align-items: center;
   margin-right: 33%;
   margin-left: 33%;
