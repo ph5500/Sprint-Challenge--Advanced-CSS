@@ -1,17 +1,35 @@
 // Home Content
 
 .home {
-
+  @media @phone {
+    margin: 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
   .intro {
-
+    width: 100%;
+    align-items: left;
     h2 {
-      padding: 15px;
+      padding-top: 5%;
     }
 
     p {
-      padding:0 15px;
+      /*padding: 0 15px;*/
     }
-  
+  }
+
+  .lift_p {
+    width: 100%;
+    text-align: left;
+    align-items: left;
+    margin-right: 10%;
+
+    @media @phone {
+      width: 100%;
+      text-align: left;
+    }
   }
 
   .space-images {
@@ -24,11 +42,34 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone {
+        margin: 2% 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        margin-left: 7%;
+      }
     }
   }
 
   .visit-planets {
     padding: 15px;
+
+    @media @phone {
+      margin: 1% 0;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: left;
+      width: 80vw;
+      text-align: left;
+      margin-left: 26%;
+      margin-right: 33%;
+      margin-bottom: 3%;
+    }
 
     h3 {
       margin-top: 11px;
@@ -38,38 +79,72 @@
       margin-top: 13px;
     }
   }
+}
 
-  .walk {
-    margin-top: 60px;
-    border-top: 1px solid @main-border-color;
-    padding: 50px 60px;
+.walk {
+  margin-top: 20px;
+  border-top: 1px solid @main-border-color;
+  padding: 50px 20px;
+
+  width: 100vw;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.just-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 2%;
+
+  @media @phone {
+    margin: 2% 0;
     display: flex;
-    justify-content: center;
 
-    .walk-text {
-      width: 50%;
+    flex-direction: column;
+  }
+}
 
-      h3 {
-        margin-bottom: 10px;
-      }
+h3 {
+  margin-bottom: 10px;
+}
 
-      p {
-        margin-bottom: 26px;
-      }
+p {
+  margin-bottom: 26px;
+}
 
-      .btn {
-      }
-    }
+.walk-img {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
 
-    .walk-img {
-      width: 46%;
-      margin-left: 4%;
-      
-      img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-      }
+  img {
+    border-radius: 10px;
+    width: 100%;
+
+    @media @phone {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
     }
   }
-}// home
+}
+
+.image-text {
+  width: 100%;
+  display: flex;
+
+  flex-direction: row;
+
+  @media @phone {
+    margin: 1% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+    margin-bottom: 3%;
+  }
+}
+
+// home

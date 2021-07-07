@@ -1,1 +1,35 @@
 // Navigation code here
+
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  font-size: 30px;
+  margin-left: 10%;
+
+  @media @phone {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  flex-wrap: wrap;
+  width: 90%;
+  align-items: center;
+  .nav_margin();
+
+  @media @phone {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    .nav_margin_dos();
+  }
+}
